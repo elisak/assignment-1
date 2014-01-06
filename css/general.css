@@ -1,0 +1,60 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@-moz-@viewport{ width: device-width; scale: 1;}
+@ms-@viewport{ width: device-width; scale: 1;}
+@-o-@viewport{ width: device-width; scale: 1;}
+@-webkit-@viewport{ width: device-width; scale: 1;}
+@viewport{ width: device-width; scale: 1;}
+
+html{
+	@-moz-text-size-adjust:100%;	
+	@-ms-text-size-adjust:100%;	
+	@-o-text-size-adjust:100%;	
+	@-webkit-text-size-adjust:100%;	
+	text-size-adjust:100%;
+}
+
+html, body{
+	width:100%;
+	font-family:"Times New Roman", Times, serif;
+	font-size: 1.10rem;
+	margin:0;
+	padding:0;
+}
+
+img{
+	width:100%;
+
+}
+
+.logo{
+	margin:-10rem 10%;
+	padding:10rem 0;
+	width: 10%;
+}
+
+main{
+	width:90%;
+	margin: 3rem 10%;	
+}
+
+h1{
+	font-size:2rem;
+	margin:0;
+	padding:0;
+}
+
+p{
+	font-size:1.10rem;
+}
+
+.image1{
+	margin:0 -5% 0 -5%;
+}
+
+footer{
+	font-size:.50rem;
+	font-family:"MS Serif", "New York", serif;
+}
+
